@@ -87,7 +87,7 @@ main .form-container {
   grid-template-columns: repeat(2, 1fr);
 }
 main .form-container .background {
-  background: url("./assets/bg-1.svg");
+  background: url("./practice-1/assets/bg-1.svg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;

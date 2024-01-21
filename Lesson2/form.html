@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: lightslategray;
+        color: white;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(#7c47b9, #6962c1, #5a7ac7, #4796cf, #3ea7d6, #36b5d8);
+      }
+
+      form {
+        width: 450px;
+        background: #373779;
+        border-bottom-left-radius: 15px; 
+        border-bottom-right-radius:15px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border: solid black;
+        box-shadow: 0px 4px 19px 5px white;
+      }
+
+      .form-header {
+        background: #1d1b4a;
+        padding: 5px;
+        border-bottom-left-radius: 0; 
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .form.body {
+        padding: 20px;
+      }
+
+      input {
+        font-size: 25px;
+        width: 400px;
+        margin: 5px;
+        border-radius: 7px;
+      }
+
+      ::placeholder {
+        font-size: medium;
+
+      }
+
+      .checkbox {
+        width: auto;
+      }
+
+      span{
+        width: auto;
+        padding: auto;
+      }
+
+      button{
+        background: linear-gradient(#73cb38, #3b6d18);
+        color: white;
+        float: right;
+        padding: 10px 15px;
+        font-size: 20px;
+        border-radius: 5px;
+        border: none;
+        margin: 15px;
+
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <main>
+      <form>
+        <div class="form-header">
+          <h1>Registration form</h1>
+        </div>
+
+        <div class="form-body">
+          <input type="text" placeholder="First name" />
+          <input type="text" placeholder="Last name"/>
+          <input type="email" placeholder="Email"/>
+          <input type="password" placeholder="Password"/>
+
+          <p>
+            <input type="checkbox" class="checkbox" />
+            <span
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Obcaecati asperiores dolorum aut debitis a reiciendis quos esse
+              quasi sequi dolorem, deleniti repudiandae quas ipsam harum!
+              Repellat aperiam fugiat adipisci minus.</span
+            >
+          </p>
+          <p>
+            <input type="checkbox" class="checkbox" />
+            <span
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Officiis, molestiae. Quam praesentium dolores reprehenderit,
+              voluptatem, provident dolorem doloremque adipisci voluptas
+              repudiandae architecto cumque, quo nobis quae maxime illum non
+              fuga.</span
+            >
+          </p>
+        </div>
+        <div class="form-footer">
+          <button>Register</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

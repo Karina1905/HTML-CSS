@@ -1,0 +1,73 @@
+@use "rules.scss";
+
+footer {
+  width: 100vw;
+  height: 400px;
+  background: rules.$darkblue;
+  color: rules.$white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .logo-content {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    .logo {
+      width: 50%;
+      margin: 0;
+      position: relative;
+    
+
+      h2 {
+        color: #fff;
+        font-family: "Noto Sans";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      span {
+        color: #fff;
+        font-family: "Noto Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        margin: 0;
+        bottom: 0;
+        transform: translateY(150px);
+      }
+    }
+
+    .footer-options {
+      width: 40%;
+
+        nav {
+            display: flex;
+            gap: 50px;
+            justify-self: center;
+            align-items: center;
+        }
+
+        .links {
+            width: 100%;
+            gap: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+      }
+
+      a {
+        @include rules.link;
+      }
+    }
+
+  }
+

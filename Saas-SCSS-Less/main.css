@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: gray;
+}
+
+article {
+  border: 5px dotted blue;
+  border-radius: 50px;
+  max-width: 50%;
+  text-align: center;
+}
+article h2 {
+  color: antiquewhite;
+}
+article h2 span {
+  color: rgb(172, 255, 236);
+}
+
+.article {
+  border: 5px dotted blue;
+  border-radius: 50px;
+  color: aqua;
+  padding: 0;
+}
+.article .heading {
+  font-size: 10px;
+  color: aquamarine;
+}
+.article .heading #span {
+  color: rgb(172, 255, 236);
+  font-weight: 900;
+}

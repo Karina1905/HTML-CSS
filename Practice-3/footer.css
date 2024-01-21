@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+footer {
+  width: 100vw;
+  height: 400px;
+  background: #010625;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .logo-content {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .logo-content .logo {
+  width: 50%;
+  margin: 0;
+  position: relative;
+}
+footer .logo-content .logo h2 {
+  color: #fff;
+  font-family: "Noto Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .logo-content .logo span {
+  color: #fff;
+  font-family: "Noto Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  transform: translateY(150px);
+}
+footer .logo-content .footer-options {
+  width: 40%;
+}
+footer .logo-content .footer-options nav {
+  display: flex;
+  gap: 50px;
+  justify-self: center;
+  align-items: center;
+}
+footer .logo-content .footer-options .links {
+  width: 100%;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+footer .logo-content a {
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}

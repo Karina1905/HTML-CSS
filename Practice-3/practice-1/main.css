@@ -141,7 +141,7 @@ main .form-container .form form .form-bottom-content .icons-wrapper {
   margin-bottom: 75px;
 }
 main .form-container .background {
-  background: url("./assets/bg-2.svg");
+  background: url("./practice-1/assets/bg-2.svg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;

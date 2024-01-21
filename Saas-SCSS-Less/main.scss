@@ -1,0 +1,52 @@
+$green:  rgb(172, 255, 236);
+$spacing:  10px;
+
+@mixin theme() {
+    border: 5px dotted blue;
+    border-radius: 50px;
+}
+
+body {
+   margin: 0;
+   padding: 0; 
+   background: gray;
+   
+}
+
+article {
+    @include theme;
+
+
+    max-width: 50%;
+    text-align: center;
+    $yellow: yellow;
+
+    h2{
+        color: antiquewhite;
+
+        span{
+            color: $green;
+        }
+
+        
+    }
+}
+
+.article {
+    @include theme;
+
+
+    color: aqua;
+    padding: 0;
+
+    .heading {
+        font-size: 10px;
+        color: aquamarine;
+
+        #span{
+            color: $green;
+            font-weight: 900;
+        }
+    }
+}
+

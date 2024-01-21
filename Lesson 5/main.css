@@ -1,0 +1,79 @@
+table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+#first-table tr {
+  min-width: 100%;
+  background: gray;
+  margin: 10px;
+}
+
+#first-table td {
+  text-align: center;
+  font-size: 30px;
+  height: 100px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px;
+}
+
+
+#first-table th {
+    background: lightblue;
+    color: burlywood;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+}
+
+#first-table .first {
+    background: lightblue;
+    width: 20px;
+}
+
+ .table-wrapper {
+    margin: 100px;
+    display: flex;
+    width: calc(100% - 200px);
+    justify-content: center;
+ }
+
+ .table-wrapper #second-table {
+    background: lightgray;
+    width: 80%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+ }
+
+ #ssecond-table th {
+    text-align: left;
+    padding: 20px;
+    text-align: center;
+    
+ }
+
+
+ #second-table tr {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-bottom: 2px solid black;
+ }
+
+
+ #second-table td {
+    font-weight: 700;
+    padding: 20px;
+ }
+
+ table, th, td {
+    border: 2px solid black;
+    border-spacing: 0px 15px;
+    border-collapse: collapse;
+    border-radius: 20px;
+ }
+
+ table {
+    background: linear-gradient(lightblue, wheat) !important;
+ }

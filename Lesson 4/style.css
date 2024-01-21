@@ -1,0 +1,61 @@
+* {
+  font-size: 40px;
+}
+
+body {
+  background: gray;
+}
+
+sup {
+  color: darkred;
+}
+
+.bold {
+  font-weight: 800;
+  color: violet;
+}
+
+.cursive {
+  font-style: italic;
+  color: cadetblue;
+}
+
+.dashed {
+  text-decoration: dashed;
+}
+
+.dotted {
+  text-decoration: dotted;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.waved {
+  text-decoration: wavy;
+}
+
+.sub {
+  margin-bottom: -50px;
+}
+
+.sup {
+  margin-top: 10px;
+}
+
+.wrapper p {
+  color: blue;
+}
+
+.wrapper p span {
+  color: brown;
+}
+
+.custom {
+  color: aqua;
+}
+
+p {
+  color: red;
+}

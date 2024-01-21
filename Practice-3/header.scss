@@ -16,28 +16,55 @@ header {
     justify-content: space-between;
 
     h2 {
-        margin: auto 0;
+      margin: auto 0;
     }
 
     .buttons-container {
-        width: 50%;
+      width: 75%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 90px;
+
+      nav {
         display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        gap: 90px;
+        gap: 60px;
+
+        a {
+          @include rules.link;
+        }
+      }
+
+      button {
+        @include rules.button;
+      }
+    }
+  }
+}
+
+@media (max-width: rules.$tablet) {
+  header {
+    .header-content {
+      flex-direction: column;
+      justify-content: center;
+      gap: 15px;
+
+      .buttons-container {
+        width: 100%;
+        gap: 10px;
+        justify-content: space-between;
 
         nav {
-            display: flex;
-            gap: 60px;
-
-            a {
-                @include rules.link
-            }
+          width: auto;
+          gap: 30px;
         }
 
         button {
-            @include rules.button
+          width: max-content;
+          font-size: 20px;
+          padding: 15px 30px;
         }
+      }
     }
   }
 }

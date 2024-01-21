@@ -11,6 +11,11 @@ $blue-gradient: linear-gradient(
   rgba(118, 59, 194, 0) 103.82%
 );
 
+//screens
+$phone: 500px;
+$tablet:1000px;
+$desktop: 1300px;
+
 @mixin link {
   color: #fff;
   font-family: Noto Sans;
@@ -21,7 +26,7 @@ $blue-gradient: linear-gradient(
   text-decoration: none;
 }
 
-@mixin button {
+@mixin button() {
   display: flex;
   height: 55px;
   padding: 15px 50px;
@@ -38,5 +43,19 @@ $blue-gradient: linear-gradient(
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
+  line-height: normal;
+}
+
+@mixin input() {
+  padding: 20px 30px;
+  border-radius: 50px;
+  border: 3px solid #393939;
+  box-sizing: content-box;
+
+  color: #afafaf;
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
   line-height: normal;
 }
